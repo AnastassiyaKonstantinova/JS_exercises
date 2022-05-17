@@ -1,12 +1,6 @@
 function adultFilter(persons) {
-	//for every element of the array we need to select those whose age is egual or above 18 and return them into another array;
-
-	//for every element of the array
-
 	let result = [];
 	for (let i = 0; i < persons.length; i++) {
-		//select those whose age is equal or more than 18
-
 		if (persons[i].age >= 18) {
 			result.push(persons[i]);
 		}
